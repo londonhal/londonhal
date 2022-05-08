@@ -9,7 +9,7 @@ import java.time.LocalDate;
 public class Pricer {
 
 	public static void main(String[] args) {
-
+// first change is the hardest change
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("uuuu-MM-dd");
 
 		LocalDate today = LocalDate.parse("2021-09-18", dtf);
